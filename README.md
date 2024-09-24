@@ -1,2 +1,3 @@
 # logger
-A simple logger python bassed project suitable for medical application, it allows to register the timestamp before adding a comment and export the data as a csv / text file. 
+A simple Python-based logger project suitable for medical applications allows the registration of timestamps before adding comments and exporting data as a CSV or text file. To run it, simply execute the Start.bat file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
