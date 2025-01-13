@@ -1,7 +1,7 @@
  Simple Python-based logger project designed for medical applications. This tool allows you to:
-    1. Register timestamps.
-    2. Add comments.
-    3. Export data as CSV and text files.
+  1. Register timestamps.
+  2.  Add comments.\n
+  3.   Export data as CSV and text files.\n
 
 Getting Started
 Running the Logger
