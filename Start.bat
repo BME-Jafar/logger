@@ -1,4 +1,6 @@
 @echo off
-call .qtcreator\Python_3_11_64_bit_venv\Scripts\activate.bat
+call .\venv\Scripts\activate.bat
+pip install pandas
+pip install PySide6
 python mainwindow.py
 pause
