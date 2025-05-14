@@ -1,18 +1,20 @@
- Simple Python-based logger project designed for medical applications. This tool allows you to:
-  1. Register timestamps.
-  2.  Add comments.\n
-  3.   Export data as CSV and text files.\n
+A simple Python-based logger designed for medical applications.
+This tool allows users to:
 
-Getting Started
+    🕒 Register timestamps
+    💬 Add comments
+    📤 Export data as CSV and text files
+
+🚀 Getting Started
 Running the Logger
+Option 1: Using the Provided Batch File (Windows)
 
-* To run the logger:
-    Execute the Start.bat file.
-        Note: The project includes a virtual Python environment (Windows). The first run requires an internet connection to download pandas and PySide6.
-* Alternative Method
+    Double-click Start.bat to run the application.
+    On first launch, ensure you are connected to the internet — required for downloading dependencies (pandas, PySide6).
+    A virtual Python environment is already included for convenience.
 
-If Python is already installed on your system:
-    Open the command prompt (cmd).
-    Run the application by typing:
-    
-    python mainwindow.py
+Option 2: Run with Your Own Python Installation, with pandas and PySide6 already installed.
+
+    Open Command Prompt (cmd).
+    Navigate to the project folder.
+    Run the application manually:
