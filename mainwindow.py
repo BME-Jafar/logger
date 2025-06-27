@@ -19,8 +19,26 @@ from PySide6.QtUiTools import QUiLoader
 # You need to run the following command to generate the ui_form.py file
 #     pyside6-uic form.ui -o ui_form.py, or
 #     pyside2-uic form.ui -o ui_form.py
+
 from ui_form import Ui_MainWindow
 
+def set_dark_theme():
+    app.setStyleSheet("""
+        QWidget {
+            background-color: #333;
+            color: white;
+        }
+        QPushButton {
+            background-color: #2FA572;
+            color: white;
+            border: 1px solid #777;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        QPushButton:hover {
+            background-color: #106A43;
+        }
+    """)
 global counter
 global df
 
@@ -180,6 +198,7 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    set_dark_theme()
     widget = MainWindow()
     widget.show()
     sys.exit(app.exec())

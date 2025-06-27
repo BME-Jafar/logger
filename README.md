@@ -1,5 +1,5 @@
 # 🩺 Medical Logger
-
+![screenshot](image.png)
 A simple, Python-based logger designed for medical applications.
 
 ## ✨ Features
